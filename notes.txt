@@ -1,0 +1,6 @@
+Creating a virtual Environment
+ - python3 -m venv venv # Creates a virtual environment names venv
+ - source venv/bin/activate
+- pip3 freeze > requirements.txt # creates a requirement.txt file with all the installed modules
+- python3 -m pip uninstall certifi # To uninstall a module
+- python setup.py sdist # creating a distribution based on the setup.py

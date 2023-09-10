@@ -1,0 +1,14 @@
+certifi==2023.7.22
+charset-normalizer==3.2.0
+coverage==7.3.0
+dnspython==2.4.2
+idna==3.4
+import-from-github-com==0.1
+mysql-connector-python==8.1.0
+protobuf==4.21.12
+pymongo==4.5.0
+pyodbc==4.0.39
+requests==2.31.0
+SQLAlchemy==2.0.20
+typing_extensions==4.7.1
+urllib3==2.0.4
