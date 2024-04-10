@@ -11,6 +11,25 @@ if 1 == 1:
     pass
 
 
+# In Python, methods with names prefixed and suffixed with double underscores(often called "dunder" methods)
+# are special methods that are used to define behavior for built-in operations.
+# These methods are also known as magic methods or special methods.
+
+# These dunder methods are called automatically by Python in specific situations. For example,
+# when you use the + operator, Python internally calls the __add__ method of one of the operands.
+
+# Here are a few examples of dunder methods and their purposes:
+
+# __init__: Called when an instance of the class is created(the constructor).
+# __str__: Called by the str() function and print() to compute the "informal" or nicely printable string representation of an object.
+# __repr__: Called by the repr() function to compute the "official" string representation of an object, which should be unambiguous
+# and ideally able to recreate the object.
+# __add__: Called by the + operator to implement addition between objects.
+# __getitem__: Called to implement the indexing(subscripting) operation using square brackets.
+# __len__: Called to determine the length of an object using the len() function.
+# These special methods provide a way to define custom behavior for your objects that
+# integrates seamlessly with Python's built-in functionality.
+
 class Employee:
     pass
 
