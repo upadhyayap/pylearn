@@ -24,6 +24,6 @@ def create_listing_file(files, indexfile: str):
 if __name__ == "__main__":
     path = os.getcwd()
     files = get_files_sorted_by_create_time(path)
-    out = os.path.join(path, 'sequence.txt')
+    out = os.path.join(path, 'index.txt')
     create_listing_file(files, out)
     print("Generated index at %s" % out)
