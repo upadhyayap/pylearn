@@ -69,3 +69,5 @@ client = pymongo.MongoClient("mongodb://localhost:3000/")
 database = client["mongodatabase"]
 # creating collection
 collection = database["mongocollection"]
+collection.insert_one({"name": "John", "address": "Highway 37"})
+collection.delete_one({"address": "Highway 37"})

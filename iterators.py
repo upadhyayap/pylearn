@@ -93,11 +93,14 @@ print(list(compress(letters, bools)))
 # afterwards, returns every element
 print(list(dropwhile(lambda x: x < 5, [1, 4, 6, 4, 1])))
 
-# itertools.takewhile(predicate, iterable): Returns an iterator that returns elements from the iterable as long as the predicate evaluates to True;
-# afterwards, stops and does not return any more elements and so on. It is just an opposite of dropwhile().
+# itertools.takewhile(predicate, iterable): Returns an iterator that returns
+# elements from the iterable as long as the predicate evaluates to True;
+# afterwards, stops and does not return any more elements and so on.
+# It is just an opposite of dropwhile().
 print(list(takewhile(lambda x: x < 5, [1, 4, 6, 4, 1])))
 
-# itertools.groupby(iterable[, key]): Returns an iterator that returns consecutive keys and groups from the iterable.
+# itertools.groupby(iterable[, key]): Returns an iterator that
+# returns consecutive keys and groups from the iterable.
 vehicles = [('Ford', 'Taurus'), ('Dodge', 'Durango'),
             ('Chevrolet', 'Cobalt'), ('Ford', 'F150'),
             ('Dodge', 'Charger'), ('Ford', 'GT')]
@@ -121,8 +124,11 @@ for key, group in groupby(sorted_vehicles, lambda make: make[0]):
 # F150 is made by Ford
 # GT is made by Ford
 
-# starmap: The starmap tool will create an iterator that can compute using the function and iterable provided
-# The starmap function is similar to map, but instead of constructing a tuple from multiple iterators, it splits up the items in a single iterator as arguments to the mapping function using the * syntax.
+# starmap: The starmap tool will create an iterator that can compute
+# using the function and iterable provided
+# The starmap function is similar to map, but instead of constructing
+# a tuple from multiple iterators, it splits up the items in a single iterator
+# as arguments to the mapping function using the * syntax.
 
 
 def add(a, b):

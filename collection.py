@@ -22,11 +22,12 @@ c3 = c - c2
 print(c3["l"])
 
 # defaultdict: 1. It is a dictionary subclass that calls a factory function to supply missing values.
-sentence = "The red for jumped over the fence and ran to the zoo for food"
+sentence = "The red fox jumped over the fence and ran to the zoo for food"
 words = sentence.split(' ')
 
 # Here int is the factory function that will be called to supply missing values
-# if the key does not exist in the dictionary then it is created and the value is set to 0 automatically
+# if the key does not exist in the dictionary then it is created and
+# the value is set to 0 automatically
 d = defaultdict(int)
 for word in words:
     d[word] += 1

@@ -43,7 +43,11 @@ def square_root(a):
     return math.sqrt(a)
 
 
-# importlib: Python provides the importlib package as part of its standard library of modules. Its purpose is to provide the implementation of Python’s import statement (and the _import_() function). In addition, importlib gives the programmer the ability to create their own custom objects (AKA an importer) that can be used in the import process.
+# importlib: Python provides the importlib package as part of its standard library of modules.
+# Its purpose is to provide the implementation of Python’s import statement
+# (and the _import_() function). In addition, importlib gives the programmer
+# the ability to create their own custom objects (AKA an importer)
+# that can be used in the import process.
 
 # takes a module name as an argument, imports the module and returns the module object
 def dynamic_import(module):

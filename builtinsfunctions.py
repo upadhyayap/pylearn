@@ -52,7 +52,8 @@ result = map(square, numbers)
 print(list(result))
 
 
-# zip: The zip built-in function will take one or more iterables and return an iterator that will aggregate elements from each iterable.
+# zip: The zip built-in function will take one or more iterables
+# and return an iterator that will aggregate elements from each iterable.
 keys = ['x', 'y', 'z']
 values = [5, 6, 7]
 print(zip(keys, values))

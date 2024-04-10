@@ -2,6 +2,15 @@
 from abc import ABC, abstractmethod
 
 
+# In Python, pass is a null statement. It performs no operation and acts
+# as a placeholder where syntactically a statement is required, but no action
+# needs to be taken. It is often used as a placeholder in situations where code
+# must be syntactically correct but no action is required or intended.
+# Here's an example of how pass can be used:
+if 1 == 1:
+    pass
+
+
 class Employee:
     pass
 
